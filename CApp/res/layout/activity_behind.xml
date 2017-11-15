@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/back2"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.capp.Behind" >
+
+<ScrollView 
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="This is the time when aliens have attacked the earth. They have destroyed major portions of south America and Africa. TSAAW (The society against alien wars)has decided to have a war against the alien rule on earth. Aliens are very much advanced in technology than human race and they have advanced level of weapons. Niether we people have weapons nor we know how to use them."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All the weapons are on Uranus their home planet (as reveled by NASA).
+All the aliens know one language ie C language.They have secured their weapons with the code which can be decoded if someone knows C language.
+Using the weapons require little knowledge of algorithms and data structures. There are 10 types of aliens on earth and each dies with different combination of weapons. When you get all the weapons, take laptop and try to solve riddle using these problems.We have to accomplish both these missions."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You would be given training as well as you can take help of your friends at earth to decode. Reaching uranus is responsiblity of TSAAW. U as a warrior have to accomplish this mission to save the mother earth."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

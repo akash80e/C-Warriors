@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.capp.Notes" >
+
+   
+    <item 
+        android:title="Update"
+        android:id="@+id/update_button"
+        android:orderInCategory="100"/>
+        <item 
+        android:title="Delete"
+        android:id="@+id/delete_button"
+        android:orderInCategory="200"
+        />
+    
+
+</menu>
